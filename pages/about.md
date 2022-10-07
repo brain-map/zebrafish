@@ -12,3 +12,17 @@ Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap
 
 This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
  
+# Team
+PI: Sebastian Seung
+
+
+
+
+# Funding
+
+
+
+# Acknowledgements
+
+
+# Publications
