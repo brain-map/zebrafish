@@ -69,14 +69,17 @@ video {
   padding: 0 9%;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 img[align=left] {
   margin-right: 3%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 img[align=right] {
   margin-left: 3%;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
 }
 
 summary {
@@ -109,6 +112,7 @@ summary {
   video {
     max-width: 100%;
     padding: 0 1%;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
   }
 }
 
