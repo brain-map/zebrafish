@@ -34,13 +34,11 @@ tags: [Page]
 - Chris S. Jordan: Eyewire algorithms development, Eyewire system administration. 
 
 # Funding & Support
-ERFA, MSG, AV and HSS acknowledge support from R01 NS104926, R01 EY027036. ERFA and MSG acknowledge support from R01 EY021581, Simons
-Foundation Global Brain Initiative. ADR received support from K99 EY027017. HSS acknowledges support
-from NIH/NCI UH2 CA203710, ARO W911NF-12-1-0594, and the Mathers Foundation, as well as assistance
-from Google, Amazon, and Intel. HSS is grateful for support from the Intelligence Advanced Research Projects
-Activity (IARPA) via Department of Interior/Interior Business Center (DoI/IBC) contract number D16PC0005. The
-U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding
-any copyright annotation thereon.
+- ERFA, MSG, AV and HSS acknowledge support from R01 NS104926, R01 EY027036. 
+- ERFA and MSG acknowledge support from R01 EY021581, Simons Foundation Global Brain Initiative. 
+- ADR received support from K99 EY027017. 
+- HSS acknowledges support from NIH/NCI UH2 CA203710, ARO W911NF-12-1-0594, and the Mathers Foundation, as well as assistance from Google, Amazon, and Intel. 
+- HSS is grateful for support from the Intelligence Advanced Research Projects Activity (IARPA) via Department of Interior/Interior Business Center (DoI/IBC) contract number D16PC0005. The U.S. Government is authorized to reproduce and distribute reprints for Governmental purposes notwithstanding any copyright annotation thereon.
 
 # Acknowledgements
 - Will Wong: Help with image data transformation for Eyewire.
