@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/zebrafish"
-url: "https://brain-map.github.io"
+url: "https://seung-lab.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Zebrafish Connectome                                    # site's title
