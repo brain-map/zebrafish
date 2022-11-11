@@ -47,4 +47,4 @@ chunkflow load-precomputed -v precomputed://gs://neuroglancer/zfish_v1/image --u
 After that you should see a link in the terminal. Click the link, you should see the image volume visualized in webbrowser. 
 > **_NOTE:_** If the link is something like http://c02cq0glmd6v.fios-router.home:55676/v/29bd625ab5c364d68ad9f9f37b58a5444d64de56/, try to replace the `c02cq0glmd6v.fios-router.home` with `localhost`.
 
-![](../assets/img/neuroglancer_image.png)
+![](../assets/img/neuroglancer_image_chunk.png)
