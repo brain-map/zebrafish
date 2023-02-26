@@ -18,14 +18,20 @@ tags: [Page]
 - Kisuk Lee: Boundary detection network training. 
 - Ignacio Tartavull: Eyewire algorithms development. 
 - William M. Silversmith: Eyewire algorithms development, Data manipulation software. 
-- Szi-chieh Yu, Jay Gager, James Hebditch, Merlin Moore, Kyle Wille, Ryan Willie, Selden Koolman, Sarah Morejohn, Ben Silverman, Doug Bland,Celia David, Sujata Reddy, Anthony Pelegrino, Sarah Williams and Dan Visser: Manual annotation and proofreading of neuron reconstructions. 
+- Szi-chieh Yu, Jay Gager, James Hebditch, Merlin Moore, Kyle Wille, Ryan Willie, Selden Koolman, Sarah Morejohn, Ben Silverman, Doug Bland, Celia David, Sujata Reddy, Anthony Pelegrino, Sarah Williams and Dan Visser: Manual annotation and proofreading of neuron reconstructions. 
 
 ## Weill Cornell Medical College
 - Emre R. F. Aksay (PI): Designed and conceptualized this project, data interpretation. 
-- Alexandro D. Ramirez: Functional imaging.
+- Kayvon Daie: Functional imaging.
+- Alexandro D. Ramirez: Data interpretation.
 
 ## University of California at Davis
 - Mark S. Goldman (PI): Data interpretation. 
+- Alex Sood : Computational models.
+
+## Harvard University
+- Jeff Lichtman: Microscopy facility support.
+- Richard Schalek : Microscopy training and support.
 
 ## Eyewire
 - Eyewirers: Interactive neuron reconstruction online.
