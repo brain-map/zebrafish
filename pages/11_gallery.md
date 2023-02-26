@@ -14,6 +14,12 @@ tags: [Page]
 > **_NOTE:_** You can click the image to visualize the data in your browser and interact with it.
 
 ### Image
+
+(1,1) → XY view
+(1,2) → YZ view
+(2,1) → view skeleton highlighted in the segment selection box to the right.
+(2,2) → XZ view
+
 [<img src="../assets/img/neuroglancer_image.png">](https://neuromancer-seung-import.appspot.com/#!%7B%22layers%22:%5B%7B%22source%22:%22precomputed://gs://neuroglancer/zfish_v1/image%22%2C%22type%22:%22image%22%2C%22opacity%22:0.43%2C%22blend%22:%22default%22%2C%22shaderControls%22:%7B%7D%2C%22name%22:%22image%22%7D%5D%2C%22navigation%22:%7B%22pose%22:%7B%22position%22:%7B%22voxelSize%22:%5B5%2C5%2C45%5D%2C%22voxelCoordinates%22:%5B54746.8125%2C26999.6875%2C16946.53515625%5D%7D%7D%2C%22zoomFactor%22:19.889658834717007%7D%2C%22perspectiveOrientation%22:%5B0.33774635195732117%2C-0.7286133766174316%2C-0.27233976125717163%2C0.5299820899963379%5D%2C%22perspectiveZoom%22:2132.77119684805%2C%22showSlices%22:false%2C%22jsonStateServer%22:%22https://www.dynamicannotationframework.com/nglstate/post%22%2C%22layout%22:%224panel%22%7D)
 
 ### Image with Segmentation
