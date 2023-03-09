@@ -27,7 +27,8 @@ More example links are in the [Gallery](http://zebrafish.brain-map.github.io/) p
 # Downloading 
 For Google Drive links, the data could be downloaded directly by clicking the links.
 
-For image and segmentation volumes in Google Cloud Storage, you can cutout some chunks using [CloudVolume](https://github.com/seung-lab/cloud-volume) or [chunkflow](https://github.com/seung-lab/chunkflow)(still using CloudVolume under the hood). For whole dataset downloading, it is recommended to contact us first.
+## Image and Segmentation 
+Image and segmentation volumes are stored in Google Cloud Storage. You can cutout some chunks using [CloudVolume](https://github.com/seung-lab/cloud-volume) or [chunkflow](https://github.com/seung-lab/chunkflow)(still using CloudVolume under the hood). For whole dataset downloading, it is recommended to contact us first.
 
 > **_NOTE:_** CloudVolume use f-order (XYZ) while chunkflow use c-order (ZYX) in default!
 
@@ -50,3 +51,39 @@ After that you should see a link in the terminal. Click the link, you should see
 > **_NOTE:_** If the link is something like http://c02cq0glmd6v.fios-router.home:55676/v/29bd625ab5c364d68ad9f9f37b58a5444d64de56/, try to replace the `c02cq0glmd6v.fios-router.home` with `localhost`.
 
 ![](../assets/img/neuroglancer_image_chunk.png)
+
+## Meshes
+You can visualize the meshes by clicking the objects in Neuroglancer. 
+
+In order to download the meshes, you can use [CloudVolume](https://github.com/seung-lab/cloud-volume).
+
+The following is an example code modified from CloudVolume documentation:
+```python
+from cloudvolume import CloudVolume
+vol = CloudVolume('gs://mylab/mouse/image', parallel=True, progress=True)
+label = 1
+mesh = vol.mesh.get(label)
+
+vol.mesh.save(12345) # save 12345 as ./12345.ply on disk
+vol.mesh.save([12345, 12346, 12347]) # merge three segments into one file
+vol.mesh.save(12345, file_format='obj') # 'ply' and 'obj' are both supported
+vol.mesh.get(12345) # return the mesh as vertices and faces instead of writing to disk
+vol.mesh.get([ 12345, 12346 ]) # return these two segids fused into a single mesh
+vol.mesh.get([ 12345, 12346 ], fuse=False) # return { 12345: mesh, 12346: mesh }
+vol.mesh.put(meshes) # works for unsharded legacy only
+vol.mesh.delete(segids) # works for unsharded meshes only
+
+mesh.viewer() # Opens GUI. Requires vtk.
+```
+
+## Screenshots and Video Recordings
+Neuroglancer provides internal tools for [screenshots](https://github.com/google/neuroglancer/blob/master/python/neuroglancer/tool/screenshot.py) and [video recording](https://github.com/google/neuroglancer/blob/master/python/neuroglancer/tool/video_tool.py). The documentation of usage is embedded in the code.
+
+Example usages is as follows:
+```
+python -m neuroglancer.tool.screenshot --help
+python -m neuroglancer.tool.video_tool --help
+python -m neuroglancer.tool.screenshot state.json
+python -m neuroglancer.tool.video_tool script.txt
+```
+
