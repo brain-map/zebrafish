@@ -9,10 +9,7 @@ tags: [Page]
 
 
 # Introduction
-The larval zebrafish dataset is from a 6dfp larvae described in [Vishwanathan et. al](https://www.sciencedirect.com/science/article/pii/S0960982217307303). The high-resolution Electron Microscipy (EM) volume over the hindbrain spans from the plane of the Mauthner Cell (M-cell), to roughly the inferior olive (IO). It contains most of the important cell-types that are involved in eye movement, including the Abducens motor neurons, neurons upstream of them, Reticulospinal neurons etc. 
+This resource provides a partial connectome of the larval zebrafish hindbrain. The resource includes a high-resolution Electron Microscopy (EM) volume, proofread neuronal segmented volumes, and proofread synaptic contacts. The EM volume (of the right hindbrain) extends from roughly the level of the Mauthner axon to below the Abducens and from the obex through rhombomere 2. Proofread cell types of the oculomotor system include abducens motoneurons, abducens internuclear neurons, second-order vestibular neurons, and oculomotor integrator neurons. The data set also includes proofread cell types of the locomotor system like the giant reticulospinal neurons.   
 
-# Science
-The volume was collected from a larvae which was previoulsy imaged with calcium sensors during spontaneous eye-movements. For a detailed description please read the methods section of the above paper.
+Details of the imaging, reconstruction, and proofreading are described in [Vishwanathan et. al](https://www.sciencedirect.com/science/article/pii/S0960982217307303), [Wanner et. al](https://www.frontiersin.org/articles/10.3389/fncir.2018.00089/full), and [Vishwanathan et. al])(https://www.biorxiv.org/content/10.1101/2020.10.28.359620v3.abstract).
 
-# Technology
-The EM volume was colleced on a single-beam Zeiss Sigma from 45nm sices of the preserved hindbrain of the larval zebrafish. Details of tissue processing and microscopy are also described in [Wanner et. al](https://www.frontiersin.org/articles/10.3389/fncir.2018.00089/full). 
