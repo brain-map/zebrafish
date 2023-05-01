@@ -53,6 +53,6 @@ tags: [Page]
 
 # Publications
 
-1. Vishwanathan, A., Daie, K., Ramirez, A. D., Lichtman, J. W., Aksay, E. R., & Seung, H. S. (2017). Electron microscopic reconstruction of functionally identified cells in a neural integrator. Current Biology, 27(14), 2137-2147. [link](https://www.sciencedirect.com/science/article/pii/S0960982217307303)
+1. Vishwanathan, A., Daie, K., Ramirez, A. D., Lichtman, J. W., Aksay, E. R., & Seung, H. S. (2017). Electron microscopic reconstruction of functionally identified cells in a neural integrator. Current Biology, 27(14), 2137-2147. [link](https://www.sciencedirect.com/science/article/pii/S0960982217307303) [This manuscript should be cited for the EM imaging.]
 
-2. Vishwanathan, Ashwin, Alexandro D. Ramirez, Jingpeng Wu, Alex Sood, Runzhe Yang, Nico Kemnitz, Dodam Ih et al. "Predicting modular functions and neural coding of behavior from a synaptic wiring diagram." bioRxiv (2022): 2020-10. [link](https://www.biorxiv.org/content/10.1101/2020.10.28.359620v3.abstract)
+2. Vishwanathan, Ashwin, Alexandro D. Ramirez, Jingpeng Wu, Alex Sood, Runzhe Yang, Nico Kemnitz, Dodam Ih et al. "Predicting modular functions and neural coding of behavior from a synaptic wiring diagram." bioRxiv (2022): 2020-10. [link](https://www.biorxiv.org/content/10.1101/2020.10.28.359620v3.abstract) [This manuscript should be cited for the proofread neuronal volumes and connections.]
