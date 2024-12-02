@@ -3,13 +3,13 @@ baseurl: "/zebrafish"
 url: "https://seung-lab.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Zebrafish Connectome                                    # site's title
-description: "A connectome of zebrafish hindbrain"      # used by search engines
+title: Zebrafish Partial Connectome                                    # site's title
+description: "A partial connectome of zebrafish hindbrain"      # used by search engines
 avatar: assets/img/connectome.png                         # Empty for no avatar in navbar
 favicon: assets/img/connectome.png                             # Icon displayed in the tab
 
 # Header and footer text
-header_text: A Connectome of Zebrafish Hindbrain  # Change Blog header text
+header_text: A Partial Connectome of Zebrafish Hindbrain  # Change Blog header text
 header_feature_image: assets/img/meshes.png
 header_feature_image_responsive: true
 footer_text: >
