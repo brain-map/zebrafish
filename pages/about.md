@@ -55,4 +55,4 @@ tags: [Page]
 
 1. Vishwanathan, A., Daie, K., Ramirez, A. D., Lichtman, J. W., Aksay, E. R., & Seung, H. S. (2017). Electron microscopic reconstruction of functionally identified cells in a neural integrator. Current Biology, 27(14), 2137-2147. [link](https://www.sciencedirect.com/science/article/pii/S0960982217307303) [This manuscript should be cited for the EM imaging.]
 
-2. Vishwanathan, A., Sood, A., Wu, J. et al. Predicting modular functions and neural coding of behavior from a synaptic wiring diagram. Nat Neurosci 27, 2443–2454 (2024). https://doi.org/10.1038/s41593-024-01784-3. [link](https://www.nature.com/articles/s41593-024-01784-3)
+2. Vishwanathan, A., Sood, A., Wu, J. et al. Predicting modular functions and neural coding of behavior from a synaptic wiring diagram. Nat Neurosci 27, 2443–2454 (2024). [link](https://www.nature.com/articles/s41593-024-01784-3)
